@@ -13,6 +13,6 @@ def index():
         }
     return render_template('index500.html', **templateData)
 
-if (__name__) == '(__main__)' :
+if __name__ == ('__main__') :
     app.run(debug = True)
 
